@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../../images/logo.svg" type="image/icon type">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../../css/login-style.css">
+    <title>Login Page</title>
+</head>
+<body>
+<div class="container">
+
+    <div class="img">
+        <img src="../../images/adidas.jpg" alt="BG">
+    </div>
+
+    <div class="login-content">
+        <form action="#">
+            <div class="title-container">
+                <h1>Login</h1>
+                <h2>Welcome back!</h2>
+                <p>Login to access the Sweet Marketplace.</p>
+            </div>
+            <label for="" class="error"><i class="fas fa-exclamation-circle"></i> Erorrs</label>
+            <div class="login-inner-content">
+                <div class="input-div one">
+                    <div class="i">
+                        <i class="far fa-user-circle"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Email</h5>
+                        <input type="email" class="input">
+                    </div>
+                </div>
+
+                <div class="input-div pass">
+                    <div class="i">
+                        <i class="fas fa-eye" onclick="show()"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Password</h5>
+                        <input id="pswrd" name="password" type="password" class="input">
+                    </div>
+                </div>
+
+                <a href="#">Forgot password ?</a>
+            </div>
+            <input type="submit" class="btn" value="Login">
+            <h5>Not registered Yet ? <a class="agree" href="register-page.html">Create Account</a></h5>
+        </form>
+    </div>
+</div>
+    <script src="../../js/login-script.js"></script>
+</body>
+</html>
